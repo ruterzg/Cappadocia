@@ -1,0 +1,48 @@
+.hotel{
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    @include title;
+  }
+
+  .info {
+    .leftBlock{
+      display: flex;
+      flex-direction: row-reverse;
+      width: 50%;
+      padding-right: 100px;
+
+      img{
+        width: 500px;
+        height: 700px;  
+      }
+    }
+    .rightBlock{
+      width: 50%;
+      row-gap: 20px;
+
+      p{
+        width: 600px;
+        font-weight: 300;
+      }
+
+      .images{
+        margin-top: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 600px;
+        height: 350px;
+        gap: 50px 39px;
+
+        img{
+          width: 280px;
+          height: 150px;
+        }
+      }
+    }
+  }
+}
+
+

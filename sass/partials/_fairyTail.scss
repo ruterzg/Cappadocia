@@ -1,0 +1,48 @@
+.fairyTail {
+  padding-top: 200px;
+  .title {
+    @include title;
+    text-align: right;
+    width: max-content;
+    padding-bottom: 107px;
+    h4 {
+      color: #e2ab3f;
+      font-family: $font-balqis;
+      font-size: 96px;
+    }
+    span {
+      font-size: 24px;
+      font-style: italic;
+      font-weight: 300;
+    }
+  }
+  .main {
+    display: flex;
+    .carousel {
+      display: flex;
+      width: 50%;
+      .carousel-control-prev-icon,
+      .carousel-control-next-icon {
+        width: 70px;
+        height: 70px;
+      }
+    }
+    .info {
+      padding: 30px 55px;
+      width: 50%;
+      row-gap: 50px;
+      display: flex;
+      flex-direction: column;
+
+      p {
+        width: 545px;
+        font-size: 18px;
+        font-weight: 300;
+        margin: 0;
+      }
+      .regular {
+        font-weight: 400;
+      }
+    }
+  }
+}
